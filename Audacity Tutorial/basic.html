@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Основни карактеристики</title>
+    <link rel="stylesheet" href="./styles/stil.css">
+    <link rel="icon" type="image/x-icon" href="./audacity_logo.svg.ico">
+</head>
+<body>
+   <!-- navigation bar -->
+  <header>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="./homepage.html">
+                <img src="./audacity_logo.svg.png" alt="Audacity Logo" class="logo-img">
+                Audacity Туторијали
+            </a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="./homepage.html">Почетна страна</a></li>
+            <li><a href="./getting_started.html">Започни</a></li>
+            <li><a href="./basic.html">Основни карактеристики</a></li>
+            <li><a href="./advanced.html">Напредни карактеристики</a></li>
+            <li><a href="./tutorials.html">Видео туторијали</a></li>
+            <li><a href="./resources.html">Ресурси</a></li>
+        </ul>
+    </nav>
+ </header>
+
+    <main>
+        <section id="basic-features" class="content-section">
+            <h1>Основни карактеристики со Audacity</h1>
+            <p>Научете ги основните карактеристики на Audacity, кои ќе ви помогнат да го извлечете максимумот од овој моќен софтвер за уредување аудио. Подолу ќе најдете лесни за следење чекори за извршување на основните задачи со аудио примери.</p>
+
+            <div class="card-container">
+                <div class="card">
+                    <h2>Import на аудио</h2>
+                    <p>Ако имате аудио датотеки што сакате да ги уредувате, Audacity ви овозможува лесно да ги увезете:</p>
+                    <ol>
+                        <li>Одете во <strong>File</strong> > <strong>Import</strong> > <strong>Audio...</strong></li>
+                        <li>Изберете ја аудио датотеката што сакате да ја увезете од вашиот компјутер.</li>
+                        <li>Аудиодатотеката ќе се појави на работниот простор и е подготвена за уредување.</li>
+                        </ol>
+                </div>
+
+                <div class="card">
+                    <h2>Избор на аудио</h2>
+                    <p>За да уредувате одредени делови од вашето аудио, треба да го изберете:</p>
+                    <ul>
+                    <li>Кликнете и повлечете со <strong>Selection Tool</strong> за да го означите звукот.</li>
+                    <li>Користете ја <strong>Zoom Tool</strong> за да добиете поблизок приказ доколку е потребно.</li>
+                    <li>Откако ќе го изберете, можете да го исечете, копирате, залепите или избришете аудиото.</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h2>Основни алатки за уредување</h2>
+                    <p>Audacity има моќни алатки за уредување кои ви дозволуваат да го менувате вашето аудио:</p>
+                    <ul>
+                    <li><strong>Cut</strong> - Отстранете го избраното аудио.</li>
+                    <li><strong>Copy</strong> - Копирајте го избраното аудио.</li>
+                    <li><strong>Paste</strong> - Вметнете копиран звук на избраната локација.</li>
+                    <li><strong>Delete</strong> - Избришете го избраниот дел од аудиото.</li>
+                    <li><strong>Silence</strong> - Намалете ја јачината на звукот на дел од аудиото.</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h2>Аудио снимање</h2>
+                    <p>Audacity ви овозможува лесно да снимате аудио со помош на вашиот микрофон. Еве како да го направите тоа:</p>
+                    <ul>
+                    <li>Поврзете го микрофонот со компјутерот.</li>
+                    <li>Кликнете на црвеното копче <strong>Record</strong> за да започнете со снимање.</li>
+                    <li>Кликнете на копчето <strong>Stop</strong> кога ќе завршите со снимање.</li>
+                    <li>Можете и да паузирате и да продолжите со снимање по потреба.</li>
+                    </ul>
+                    <h3>Аудио пример: оригинално наспроти снимено</h3>
+                    <audio controls>
+                    <source src="./audio/original-audio.mp3" type="audio/mp3">
+                    Вашиот прелистувач не го поддржува аудио елементот.
+                    </audio>
+                    <p>Ова е оригиналната снимка, пред да примените какви било ефекти.</p>
+                </div>
+
+                <div class="card">
+                    <h2>Примена на ехо ефект</h2>
+                    <p>Audacity ви овозможува да додадете ехо на вашите снимки. Еве како да го примените:</p>
+                    <ul>
+                    <li>Изберете го делот од аудиото на кој сакате да го примените ефектот.</li>
+                    <li>Одете во <strong>Effect</strong> > <strong>Echo...</strong>.</li>
+                    <li>Прилагодете ги поставките за да го контролирате ефектот на ехо.</li>
+                    </ul>
+                    <h3>Аудио пример: оригинално наспроти ехо</h3>
+                    <p>Еве како звучи звукот со и без ефектот на ехо:</p>
+                    <p>Оригинално аудио:</p>
+                    <audio controls>
+                    <source src="./audio/original-audio.mp3" type="audio/mp3">
+                    Вашиот прелистувач не го поддржува аудио елементот.
+                    </audio>
+                    <p>Аудио со ехо:</p>
+                    <audio controls>
+                    <source src="./audio/echo-audio.mp3" type="audio/mp3">
+                    Вашиот прелистувач не го поддржува аудио елементот.
+                    </audio>
+                </div>
+
+                <div class="card">
+                    <h2>Отстранување на шум</h2>
+                    <p>Отстранете ја бучавата во заднина од вашите снимки со помош на Audacity. Еве како:</p>
+                    <ul>
+                    <li>Изберете дел од аудиото што содржи само шум во заднина.</li>
+                    <li>Одете во <strong>Effect</strong> > <strong>Noise reduction...</strong>.</li>
+                    <li>Кликнете на <strong>Get a noise profile</strong> за да го анализирате шумот.</li>
+                    <li>Изберете го целото аудио, а потоа кликнете <strong>Apply noise reduction</strong>.</li>
+                    </ul>
+                    <h3>Аудио пример: оригинално наспроти аудио на коешто шумот е отстранет</h3>
+                    <p>Еве ја разликата помеѓу звукот со шум и исчистената верзија:</p>
+                    <p>Оригинално аудио со шум:</p>
+                    <audio controls>
+                    <source src="./audio/original-audio.mp3" type="audio/mp3">
+                    Вашиот прелистувач не го поддржува аудио елементот.
+                    </audio>
+                    <p>Аудио по отстранување на шум:</p>
+                    <audio controls>
+                    <source src="./audio/noise_removal-audio.mp3" type="audio/mp3">
+                    Вашиот прелистувач не го поддржува аудио елементот.
+                    </audio>
+                </div>
+
+                <div class="card">
+                    <h2>Amplify ефект</h2>
+                    <p>Ефектот Amplify во Audacity ви овозможува да ја зголемите или намалите јачината на звукот на вашето аудио. Еве како:</p>
+                    <ul>
+                    <li>Изберете го делот од аудиото што сакате да го засилите.</li>
+                    <li>Одете во <strong>Effect</strong> > <strong>Volume and compression</strong> > <strong>Amplify...</strong>.</li>
+                    <li>Прилагодете го нивото на засилување и кликнете OK.</li>
+                    </ul>
+                    <h3>Аудио пример: оригинално наспроти аудио со засилување</h3>
+                    <p>Еве како звучи звукот пред и по примената на ефектот Amplify:</p>
+                    <p>Оригинално аудио:</p>
+                    <audio controls>
+                    <source src="./audio/original-audio.mp3" type="audio/mp3">
+                    Вашиот прелистувач не го поддржува аудио елементот.
+                    </audio>
+                    <p>Засилено аудио:</p>
+                    <audio controls>
+                    <source src="./audio/ampify-audio.mp3" type="audio/mp3">
+                    Вашиот прелистувач не го поддржува аудио елементот.
+                    </audio>
+                </div>
+
+                <div class="card">
+                    <h2>Ефект fade-in/fade-out</h2>
+                    <p>Audacity ви овозможува да ја намалите јачината на звукот на почетокот и на крајот од вашето аудио. Еве како:</p>
+                    <ul>
+                    <li>Изберете го делот од звукот на кој сакате да го примените ефектот на избледување.</li>
+                    <li>Одете во <strong>Effect</strong> > <strong>Fade In</strong> или <strong>Fade Out</strong>.</li>
+                    <li>Кликнете на ОК за да го примените ефектот на избледување.</li>
+                    </ul>
+                    <h3>Аудио пример: оригинал наспроти Fade In / Fade Out</h3>
+                    <p>Еве како звучи звукот со ефекти na Fade In / Fade Out:</p>
+                    <p>Оригинално аудио:</p>
+                    <audio controls>
+                    <source src="./audio/original-audio.mp3" type="audio/mp3">
+                    Вашиот прелистувач не го поддржува аудио елементот.
+                    </audio>
+                    <p>Аудио со Fade In:</p>
+                    <audio controls>
+                    <source src="./audio/fade_in-audio.mp3" type="audio/mp3">
+                    Вашиот прелистувач не го поддржува аудио елементот.
+                    </audio>
+                    <p>Аудио со Fade Out:</p>
+                    <audio controls>
+                    <source src="./audio/fade_out-audio.mp3" type="audio/mp3">
+                    Вашиот прелистувач не го поддржува аудио елементот.
+                    </audio>
+                </div>
+
+                <div class="card">
+                    <h2>Ефект Reverb</h2>
+                    <p>Ефектот Reverb додава звук сличен на ехо на вашето аудио, правејќи го да звучи како да се репродуцира на голем простор. Еве како да го примените:</p>
+                    <ul>
+                    <li>Изберете го делот од аудиото на кој сакате да го примените ефектот.</li>
+                    <li>Одете во <strong>Effect</strong> > <strong>Reverb...</strong>.</li>
+                    <li>Прилагодете ги поставките за реверб и кликнете OK.</li>
+                    </ul>
+                    <h3>Аудио пример: оригинално наспроти аудио со ефект на reverb</h3>
+                    <p>Еве како звучи звукот со и без ефектот на реверб:</p>
+                    <p>Оригинално аудио:</p>
+                    <audio controls>
+                    <source src="./audio/original-audio.mp3" type="audio/mp3">
+                    Вашиот прелистувач не го поддржува аудио елементот.
+                    </audio>
+                    <p>Аудио со Reverb:</p>
+                    <audio controls>
+                    <source src="./audio/reverb-audio.mp3" type="audio/mp3">
+                    Вашиот прелистувач не го поддржува аудио елементот.
+                    </audio>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <p>Основни карактеристики на Audacity - 2025 година</p>
+        <p>&copy; Креирано од Марија Тасева и Дијана Парчеклиева | Сите права се задржани</p>
+    </footer>
+
+
+</body>
+</html>

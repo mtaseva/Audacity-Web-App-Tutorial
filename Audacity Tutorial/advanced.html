@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Напредни карактеристики</title>
+  <link rel="stylesheet" href="styles/stil.css">
+  <link rel="icon" type="image/x-icon" href="./audacity_logo.svg.ico">
+</head>
+<body>
+
+  <!-- navigation bar -->
+  <header>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="./homepage.html">
+                <img src="./audacity_logo.svg.png" alt="Audacity Logo" class="logo-img">
+                Audacity Туторијали
+            </a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="./homepage.html">Почетна страна</a></li>
+            <li><a href="./getting_started.html">Започни</a></li>
+            <li><a href="./basic.html">Основни карактеристики</a></li>
+            <li><a href="./advanced.html">Напредни карактеристики</a></li>
+            <li><a href="./tutorials.html">Видео туторијали</a></li>
+            <li><a href="./resources.html">Ресурси</a></li>
+        </ul>
+    </nav>
+  </header>
+
+  <!-- welcome sekcija -->
+  <section id="welcome">
+    <h1>Напредни карактеристики</h1>
+    <p>Истражете ги моќните алатки што ги нуди Audacity за напредно уредување и анализа на аудио.</p>
+  </section>
+
+  <!-- lista na napredni funkcii na audacity -->
+  <section id="advanced-features">
+    <h2>Напредни карактеристики</h2>
+    <p>Откријте некои од најнапредните алатки за работа со аудио во Audacity.</p>
+
+    <div class="feature-list">
+      <div class="feature-item">
+        <h3>Spectrogram Analysis (Спектрограмска анализа)</h3>
+        <button class="learn-more" data-feature="spectrogram">Дознајте повеќе</button>
+      </div>
+      <div class="feature-item">
+        <h3>Noise Reduction (Намалување на бучавата)</h3>
+        <button class="learn-more" data-feature="noise-reduction">Дознајте повеќе</button>
+      </div>
+      <div class="feature-item">
+        <h3>Multi-Track Editing (Уредување со повеќе песни)</h3>
+        <button class="learn-more" data-feature="multi-track">Дознајте повеќе</button>
+      </div>
+      <div class="feature-item">
+        <h3>Audio Effects (Аудио ефекти)</h3>
+        <button class="learn-more" data-feature="audio-effects">Дознајте повеќе</button>
+      </div>
+      <div class="feature-item">
+        <h3>Envelope Tool (Алатка - плик)</h3>
+        <button class="learn-more" data-feature="envelope-tool">Дознајте повеќе</button>
+      </div>
+      <div class="feature-item">
+        <h3>Crossfade (Вкрстено избледување)</h3>
+        <button class="learn-more" data-feature="crossfade">Дознајте повеќе</button>
+      </div>
+      <div class="feature-item">
+        <h3>Auto-Ducking (Автоматско патување)</h3>
+        <button class="learn-more" data-feature="auto-ducking">Дознајте повеќе</button>
+      </div>
+      <div class="feature-item">
+        <h3>Pitch Shifting (Менување на висината на звукот)</h3>
+        <button class="learn-more" data-feature="pitch-shifting">Дознајте повеќе</button>
+      </div>
+      <div class="feature-item">
+        <h3>Audio Compression (Аудио компресија)</h3>
+        <button class="learn-more" data-feature="audio-compression">Дознајте повеќе</button>
+      </div>
+      <div class="feature-item">
+        <h3>Time Stretching (Временско истегнување)</h3>
+        <button class="learn-more" data-feature="time-stretching">Дознајте повеќе</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- modal za delot za poveke informacii za poedinecnata funkcija -->
+  <div id="feature-modal" class="modal hidden">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <h3 id="modal-title"></h3>
+      <img id="modal-image" src="" alt="Feature image">
+      <p id="modal-description"></p>
+      <div id="feature-tip"></div>
+      <div id="feature-advice"></div>
+      <div id="feature-alert"></div>
+    </div>
+  </div>  
+
+  <!-- footer -->
+  <footer>
+    <p>Напредни карактеристики Audacity - 2025 година</p>
+    <p>&copy; Креирано од Марија Тасева и Дијана Парчеклиева | Сите права се задржани</p>
+  </footer>
+
+  <script src="scripts/advanced.js"></script>
+</body>
+</html>

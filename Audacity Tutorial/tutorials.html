@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/stil.css">
+    <link rel="icon" type="image/x-icon" href="./audacity_logo.svg.ico">
+    <title>Audacity Туторијали</title>
+</head>
+<body>
+
+    <!-- navigation bar -->
+  <header>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="./homepage.html">
+                <img src="./audacity_logo.svg.png" alt="Audacity Logo" class="logo-img">
+                Audacity Туторијали
+            </a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="./homepage.html">Почетна страна</a></li>
+            <li><a href="./getting_started.html">Започни</a></li>
+            <li><a href="./basic.html">Основни карактеристики</a></li>
+            <li><a href="./advanced.html">Напредни карактеристики</a></li>
+            <li><a href="./tutorials.html">Видео туторијали</a></li>
+            <li><a href="./resources.html">Ресурси</a></li>
+        </ul>
+    </nav>
+  </header>
+
+    <!-- welcome sekcija -->
+    <section id="welcome">
+        <h1>Добредојдовте во делот на туторијали за Audacity</h1>
+        <p>Научете како да го користите Audacity со видео упатства кои лесно се следат.</p>
+    </section>
+
+    <!-- dropdown lista za tutorijalite -->
+    <section id="tutorials">
+        <h2>Изберете туторијал</h2>
+        <div class="dropdown">
+            <select id="tutorial-dropdown" onchange="navigateToTutorial()">
+                <option value="">Избери туторијал...</option>
+                <option value="tutorials/tutorial1.html">Basic Editing</option>
+                <option value="tutorials/tutorial2.html">Noise Reduction</option>
+                <option value="tutorials/tutorial3.html">Multi-Track Editing</option>
+                <option value="tutorials/tutorial4.html">Audio Effects</option>
+                <option value="tutorials/tutorial5.html">Spectrogram Analysis</option>
+                <option value="tutorials/tutorial6.html">Spectral Editing</option>
+                <option value="tutorials/tutorial7.html">Pitch Shifting</option>
+            </select>
+            <div class="more-dropdown">
+                <a href="https://www.youtube.com/playlist?list=PL6wGbZVVzENlzXKZJz3D1XmOZeL91GncR" target="_blank">
+                  <button>Повеќе туторијали</button>
+                </a>
+            </div>              
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <p>Туторијали за Audacity - 2025 година</p>
+        <p>&copy; Креирано од Марија Тасева и Дијана Парчеклиева | Сите права се задржани</p>
+    </footer>
+    
+    <script src="scripts/tutorials.js"></script>
+
+</body>
+</html>
