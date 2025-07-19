@@ -43,4 +43,4 @@ styles/: CSS стилови
 
 Марија Тасева – GitHub: github.com/mtaseva
 
-Дијана Парцеклиева – GitHub: github.com/username2
+Дијана Парчеклиева – GitHub: github.com/username2
