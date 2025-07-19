@@ -27,6 +27,7 @@ Educators and students
 Anyone interested in learning how to use Audacity effectively
 
 📂 Folder Structure
+
 audio/: MP3 audio demos
 
 images/: Screenshots and diagrams
